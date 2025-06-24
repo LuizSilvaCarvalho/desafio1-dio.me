@@ -8,23 +8,23 @@ Este projeto faz parte do Módulo 01 - Primeiros Passos com HTML da trilha de ap
 
 A ideia do desafio é elaborar um website com uma estrutura HTML básica, utilizando as seguintes tags explicadas nas aulas:
 
-- Cabeçalhos: <h1>, <h2>, <h3>, <h4>, <h5>, <h6>
-- Parágrafo: <p>
-- Destaque de texto: <small>, <i>, <u>, <strong>
+- Cabeçalhos: &lt;h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6&gt;
+- Parágrafo: &lt;p&gt;
+- Destaque de texto: &lt;small&gt;, &lt;i&gt;, &lt;u&gt;, &lt;strong&gt;
 - Listas:
-  - Ordenadas: <ol>, <li>
-  - Não ordenadas: <ul>, <li>
+  - Ordenadas: &lt;ol&gt;, &lt;li&gt;
+  - Não ordenadas: &lt;ul&gt;, &lt;li&gt;
 
-* Link: <a>
-* Linha horizontal: <hr>
-* Texto sobrescrito e subscrito: <sup>, <sub>
-* Citação: <blockquote>
+* Link: &lt;a&gt;
+* Linha horizontal: &lt;hr&gt;
+* Texto sobrescrito e subscrito: &lt;sup&gt;, &lt;sub&gt;
+* Citação: &lt;blockquote>
 
 Além disso, o projeto incorpora conceitos adicionais aprendidos, como:
 
-- Estrutura básica do HTML com as tags <html>, <head>, <body>.
-- Uso de elementos semânticos como <main>, <header> e <footer>.
-- Exibição de tags como texto (ex.: <nome-da-tag>) usando entidades HTML (&lt; e &gt;).
+- Estrutura básica do HTML com as tags &lt;html&gt;, &lt;head&gt;, &lt;body&gt;.
+- Uso de elementos semânticos como &lt;main&gt;, &lt;header&gt; e &lt;footer&gt;.
+- Exibição de tags como texto (ex.: &lt;nome-da-tag&gt;) usando entidades HTML (&lt; e &gt;).
 
 ## Tecnologias Utilizadas
 
@@ -35,7 +35,7 @@ Além disso, o projeto incorpora conceitos adicionais aprendidos, como:
 
 - Estruturação semântica de um documento HTML.
 - Uso correto de tags para formatação de texto e organização de conteúdo.
-- Importância de elementos semânticos (<main>, <header>, <footer>) para acessibilidade e SEO.
+- Importância de elementos semânticos (&lt;main&gt;, &lt;header&gt;, &lt;footer&gt;) para acessibilidade e SEO.
 - Aplicação prática de listas ordenadas e não ordenadas.
 - Exibição de caracteres especiais no HTML.
 
