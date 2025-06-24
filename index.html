@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+  </head>
+  <body>
+    <header>
+        <h1 id="inicio">Módulo 1 - Primeiros Passos com HTML</h1>
+        <hr />
+        <h2>Índice</h2>
+        
+        <ul>
+          <li><a href="#sobre-html">O que é <i>HTML</i>?</a></li>
+          <li>
+            <a href="#estrutura-html">Como é uma estrutura básica de um <i>HTML</i>?</a>
+          </li>
+          <li>
+            <a href="#ordenadas-nãoordenadas"
+              >Entendendo a diferença entre <i>LISTAS ORDENADAS E NÃO ORDENADAS</i>.</a
+            >
+          </li>
+          <li>
+            <a href="#semântico">O que são <i>HEADER, MAIN, FOOTER</i>?</a>
+          </li>
+          <li><a href="#referência">Links de referências</a></li>
+        </ul>
+    </header>
+
+    <main>
+        <h2 id="sobre-html">O que é <i>HTML</i>?</h2> <small><a href="#inicio">VOLTAR AO INÍCIO DA PÁGINA</a></small>
+        <p>
+          <strong>HTML</strong> (HyperText Markup Language, ou Linguagem de Marcação de Hipertexto) é a linguagem padrão usada para criar e estruturar <br>
+          páginas na web. Ela define a estrutura e o conteúdo de um site, como textos, imagens, links, listas e outros elementos, por meio de <b>tags</b> <br>
+          (ex.: &lt;p&gt;, &lt;h1&gt;, &lt;ul&gt;). As tags são instruções que o navegador interpreta para renderizar o conteúdo visualmente. <br>
+          Abaixo você encontra dois links de referência para mais informações sobre html: <br>
+          <ol>
+          <li>
+            <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank"
+              ><i
+                >Documentação sobre HTML site mozilla</i
+              ></a
+            >
+          </li>
+          <li>
+            <a href="https://www.w3schools.com/html/html_intro.asp" target="_blank"
+              ><i>Documentação sobre HTML site w3schools</i></a
+            >
+          </li>
+        </ol>
+        </p>
+        <h2 id="estrutura-html">Como é uma estrutura básica de um <i>HTML</i>?</h2> <small><a href="#inicio">VOLTAR AO INÍCIO DA PÁGINA</a></small>
+        <p>
+          A estrutura básica de um arquivo <strong>HTML</strong>, como o
+          <i>index.html</i>, que é comumente usado como a página principal de um
+          site, é composta <br />
+          por três partes principais dentro da tag &lt;html&gt;: a tag &lt;head&gt;
+          e a tag &lt;body&gt;, além da própria tag &lt;html&gt; que engloba tudo.
+          Todas as <br />tags <b>HTML</b> são abertas com &lt;nome-da-tag&gt; e fechadas
+          com "&lt;/nome-da-tag&gt;". <br />Abaixo você encontra dois links de
+          referência para mais informações sobre estrutura básica do html:
+        </p>
+        <ol>
+          <li>
+            <a href="https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Core/Structuring_content/Structuring_documents" target="_blank"
+              ><i
+                >Documentação sobre estrutura básica de HTML site mozilla</i
+              ></a
+            >
+          </li>
+          <li>
+            <a href="https://www.dio.me/articles/estrutura-basica-do-html" target="_blank"
+              ><i> Conteúdo de comunidade sobre estrutura básica de HTML site dio.me</i></a
+            >
+          </li>
+        </ol>
+        <h2 id="ordenadas-nãoordenadas">
+          Entendendo a diferença entre <i>LISTAS ORDENADAS E NÃO ORDENADAS</i>.</h2> <small><a href="#inicio">VOLTAR AO INÍCIO DA PÁGINA</a></small>
+        <p>
+          No <strong>HTML</strong> existem 2 listas principais que são usadas para
+          organizar o conteúdo de forma estruturadas. Estas listas se chamam:
+          <u>ordenadas</u> e <br /><u>não ordenadas</u>.<br />
+          <ul> <p><i>LISTA ORDENADA:</i></p>
+            <li>A tag <b>&lt;ol&gt;</b> define a lista ordenada, e cada item é marcado com a tag <b>&lt;li&gt;</b> <strong><i>(list item)</i></strong>.</li>
+            <li>Por padrão os itens aparecem numerados, desta forma também é fácil de saber como é uma lista ordenada.</li>
+          </ul>
+          <ul> <p><i>LISTA NÃO ORDENADA:</i></p>
+            <li>A tag <b>&lt;ul&gt;</b> define a lista não ordenada, e cada item também usa a tag <b>&lt;li&gt;</b> <strong><i>(list item)</i></strong>.</li>
+            <li>Por padrão os itens são marcados com <b>"bullets points ."</b> e seu estilo pode ser mudado com <strong>CSS</strong>.</li>
+          </ul>
+          <p>Abaixo você encontra dois links de referência para mais informações sobre lista ordenada e não ordenada: <br> <ol>
+          <li>
+            <a href="https://developer.mozilla.org/pt-BR/docs/Learn_web_development/Core/Text_styling/Styling_lists" target="_blank"
+              ><i
+                >Documentação sobre lista ordenada e não ordenada site mozilla</i
+              ></a
+            >
+          </li>
+          <li>
+            <a href="https://www.w3schools.com/html/html_lists.asp" target="_blank"
+              ><i>Documentação sobre lista ordenada e não ordenada site w3schools</i></a
+            >
+          </li>
+        </ol></p>
+        </p>
+        <h2 id="semântico">O que é <i>HEADER, MAIN, FOOTER</i>?</h2> <small><a href="#inicio">VOLTAR AO INÍCIO DA PÁGINA</a></small>
+        <p>
+          No <strong>HTML</strong>, as tags &lt;main&gt;, &lt;header&gt; e &lt;footer&gt; são elementos semânticos que ajudam a estruturar uma página web de forma clara, indicando o <br> propósito de cada seção. Elas melhoram a acessibilidade e a organização do código. <br>
+          <ul> <p><i>HEADER:</i></p>
+            <li>Define o cabeçalho da página.</li>
+            <li>Geralmente contém elementos como <i>logotipos, menus de navegação, títulos ou informações introdutórias</i>.</li>
+            <li>Pode aparecer mais de uma vez em uma página, como no topo do site ou em seções internas.</li>
+          </ul>
+          <ul> <p><i>MAIN:</i></p>
+            <li>Representa o <strong>conteúdo principal</strong> da página, ou seja, a parte central e única do documento.</li>
+            <li>Deve haver apenas um <b>&lt;main&gt;</b> por página.</li>
+            <li>É usado para o <strong>conteúdo mais relevante</strong>, <i>como artigos, listas ou formulários</i>.</li>
+          </ul>
+          <ul> <p><i>FOOTER:</i></p>
+            <li>Representa o rodapé da página.</li>
+            <li>Costuma incluir informações como <i>links de contato, direitos autorais, links para redes sociais ou créditos</i>.</li>
+            <li>Pode aparecer mais de uma vez em uma página, como no final da página ou de um artigo.</li>
+          </ul>
+          <p>Abaixo você encontra links de referência para mais informações sobre header, main e footer: <br> <ol>
+          <li>
+            <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements/main" target="_blank"
+              ><i
+                >Documentação sobre main site mozilla</i
+              ></a
+            >
+          </li>
+          <li>
+            <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements/header" target="_blank"
+              ><i>Documentação sobre header site mozilla</i></a
+            >
+          </li>
+          <li>
+            <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Reference/Elements/footer" target="_blank"
+              ><i>Documentação sobre footer site mozilla</i></a
+            >
+          </li>
+        </ol></p>
+        </p>
+    </main>
+
+    <footer>
+    <h2 id="referência">Links de referências</h2>
+    <ul>
+      <li><a href="http://dio.me" target="_blank">http://dio.me</a></li>
+      <li><a href="https://www.w3schools.com/" target="_blank">https://www.w3schools.com/</a></li>
+      <li>
+        <a href="https://developer.mozilla.org/pt-BR/" target="_blank"
+          >https://developer.mozilla.org/pt-BR/</a
+        >
+      </li>
+    </ul>
+    </footer>
+  </body>
+</html>
